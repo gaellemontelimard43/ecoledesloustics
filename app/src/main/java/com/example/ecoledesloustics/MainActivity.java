@@ -12,7 +12,4 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    private void maMethode(int numero){
-        System.out.println("youpi");
-    }
 }
