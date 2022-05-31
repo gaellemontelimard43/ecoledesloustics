@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon"
+        android:layout_margin="0dp"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <TextView
+        android:layout_width="251dp"
+        android:layout_height="31dp"
+        android:text="L'école des Loustics!"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="205dp"
+        android:layout_height="74dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text=" Anglais "
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="209dp"
+        android:layout_height="72dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text=" mathematique "
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="209dp"
+        android:layout_height="73dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text=" Culture Générale "
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text=" Retour "
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <TextView
+        android:layout_width="105dp"
+        android:layout_height="22dp"
+        android:text="Hello machin !"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
