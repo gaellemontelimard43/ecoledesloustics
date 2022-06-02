@@ -28,9 +28,7 @@ public class userModel implements Serializable {
     @ColumnInfo(name = "motdepasse")
     private String motdepasse;
 
-    /*
-     * Getters and Setters
-     * */
+
     public int getId() {
         return id;
     }
